@@ -1,0 +1,19 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore data and embeddings (you can keep it if needed)
+*.txt
+*.csv
+
+# Ignore model files
+*.pkl
+*.joblib
+
+# Ignore virtual environments
+env/
+venv/
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
