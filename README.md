@@ -62,20 +62,15 @@ jupyter notebook ag_news_classification.ipynb
 📦 ag-news-classification/
 
 ├── Data/
-
-│   ├── train.csv
-
-│   ├── test.csv
-
-│   └── glove.6B.100d.txt
-
+│   └── train.csv, test.csv, glove.6B.100d.txt
+├── news_model.pkl
+├── tfidf_vectorizer.pkl
+├── app.py
 ├── ag_news_classification.ipynb
-
 ├── requirements.txt
-
 ├── .gitignore
-
 └── README.md
+
 
 🤝 Credits
 
