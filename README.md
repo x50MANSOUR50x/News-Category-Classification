@@ -39,28 +39,33 @@ This project is a **machine learning pipeline** for classifying news articles in
 ## 🔧 Setup
 
 ### 1️⃣ Clone the repo
-
+```bash
 git clone https://github.com/your-username/ag-news-classification.git
 cd ag-news-classification
+```
 
 ### 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### 3️⃣ Download NLTK stopwords
+```bash
 import nltk
 nltk.download('stopwords')
-
+```
 ### 4️⃣ (Optional) Download GloVe
+```bash
 Download glove.6B.100d.txt and place it in:
 
 Data/glove.6B.100d.txt
-
+```
 ### ▶️ Run the Notebook
+```bash
 jupyter notebook ag_news_classification.ipynb
-
+```
 📁 Project Structure
+```bash
 📦 ag-news-classification/
-
 ├── Data/
 │   └── train.csv, test.csv, glove.6B.100d.txt
 ├── news_model.pkl
@@ -71,7 +76,7 @@ jupyter notebook ag_news_classification.ipynb
 ├── .gitignore
 └── README.md
 
-
+```
 🤝 Credits
 
 Developed by Mohammed Ahmed Mansour
